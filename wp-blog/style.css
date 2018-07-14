@@ -1,0 +1,332 @@
+/*
+Theme Name: Wordpress Blog
+Theme URI: https://infinithree.com/themes/wp-blog
+Author: the infinithree team
+Author URI: https://infinithree.com/
+Description: Theme wp-blog merupakan tema untuk wordpress yang sangat simple dan elegan, sangat ringan saat digunakan.
+Version: 1.0
+License: license sekali bayar
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog website theme
+Text Domain: Wordpress Blog
+*/
+@import url("css/bootstrap.min.css");
+
+.post-image-border{
+	border:0.1em solid #CCC;
+}
+.post-content-frame{
+	padding: 10px 15px;
+	border-left:0.1em solid #CCC;
+	border-right:0.1em solid #CCC;
+}
+.post-info{
+	padding : 10px 15px;
+	border: 0.1em solid #CCC;
+	background-color: rgba(0,0,0,.03);
+	color:#6c757d;
+	margin-bottom:25px;
+}
+
+.navigation{
+	margin: 25px 0px;
+}
+
+.screen-reader-text{
+	float: left;
+	display: inline-block;
+}
+
+.nav-links{
+	display: inherit;
+}
+
+#notfound{
+	margin: 25px 25px;
+	padding: 15px;
+}
+#notfound h1{
+	font-size: 300px;
+	color: #cccccc;
+
+}
+#notfound small{
+	font-size: 80px;
+}
+
+.footer {
+    position: relative;
+    padding: 35px 0;
+}
+
+.footer-primary {
+    background-color: #337cbb !important;
+    color: #ffffff;
+}
+
+/*link read more*/
+.more-link{
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	    border-top-color: transparent;
+	    border-right-color: transparent;
+	    border-bottom-color: transparent;
+	    border-left-color: transparent;
+	border-radius: 4px;
+
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+
+.more-link:hover{
+	color:#fff;
+}
+
+.sidebar ul {
+	list-style: none;
+	margin : 15px;
+	padding: 0px;
+}
+
+.textwidget{
+	padding : 15px;
+}
+.textwidget p{
+	text-align: justify;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.image{
+	margin:15px;
+}
+
+#wp-calendar{
+	width: 100%;
+}
+#wp-calendar th,
+#wp-calendar td,
+#wp-calendar caption{
+	text-align: center;
+	border : 0.1em solid #F7F7F7;
+	padding: 3px 0px;
+}
+
+/*Style Comment Form*/
+#respond{
+	margin:0px;
+	padding: 0px;
+}
+
+.comment-respond{
+	border:0.1em solid #CCC;
+	/*border-right:0.1em solid #CCC;
+	border-bottom:0.1em solid #CCC;*/
+}
+
+#reply-title{
+	margin:0px;
+	padding : 10px 15px;
+} 
+#respond small{
+	padding : 10px 15px;
+}
+
+.comment-reply-title{
+	/*border: 0.1em solid #CCC;*/
+	background-color: rgba(0,0,0,.03);
+	color:#6c757d;
+}
+
+.comment-notes{}
+
+#cancel-comment-reply-link { }
+#commentform{} 
+
+#author,
+#email,
+#url, 
+#comment{
+	display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+#comment, textarea{
+	height: 118px;
+}
+
+.required { }
+
+.comment-form{
+	margin:0px;
+	padding : 10px 15px;
+}
+.comment-form-author,
+.comment-form-email, 
+.comment-form-url,
+.comment-form-comment{
+	margin-bottom:15px;
+} 
+
+label{
+	display: inline-block !important;
+    max-width: 100% !important;
+    margin-bottom: 5px !important;
+    font-weight: bold !important;
+}
+
+.form-allowed-tags { } 
+#submit{
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	    border-top-color: transparent;
+	    border-right-color: transparent;
+	    border-bottom-color: transparent;
+	    border-left-color: transparent;
+	border-radius: 4px;
+
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+
+/*Comment list style*/
+.commentlist-container{
+	list-style: none;
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+}
+
+.comment-body{
+	border: 0.1em solid #ccc;
+	margin-bottom: 5px;
+	padding: 10px 15px;
+}
+
+.comment-reply-link{
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	    border-top-color: transparent;
+	    border-right-color: transparent;
+	    border-bottom-color: transparent;
+	    border-left-color: transparent;
+	border-radius: 4px;
+
+	color: #fff;
+	background-color: #ccc;
+}
+
+.search-form{
+	margin: 15px;
+	display: block;
+}
+.screen-reader-text{
+	float:left;
+}
+
+input[type="search"]{
+	/*display: block;*/
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.search-submit{
+	position: relative;
+
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	    border-top-color: transparent;
+	    border-right-color: transparent;
+	    border-bottom-color: transparent;
+	    border-left-color: transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	    border-top-left-radius: 4px;
+	    border-bottom-left-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	color: #ffffff;
+	background-color: #449d44;
+	border-color: #398439;
+}
